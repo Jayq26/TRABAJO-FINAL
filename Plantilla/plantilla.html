@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo</title>
+    <link rel="stylesheet" href="slider-anuncio.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="plantilla.css">
+    <link rel="stylesheet" href="seccion_icons-div_reloj.css">
+    <link rel="stylesheet" href="seccion_grid.css">
+</head>
+<body>
+    <div class="anuncio">
+        <div class="slider-container-anuncio" id="slider-container-anuncio">
+            <div class="slide-anuncio">
+                <img src="img/anuncios/Anuncio1.png" alt="Imagen 1">
+            </div>
+            <div class="slide-anuncio">
+                <img src="img/anuncios/Anuncio2.png" alt="Imagen 2">
+            </div>
+        </div>
+    </div>
+
+
+    <header class="header">
+        <a href="https://www.plazavea.com.pe/" target="_blank"><img src="img/LogoPlazaVea.svg" width="16%" title="PlazaVea"></a>
+
+        <input class="barra-busqueda" placeholder="Hola, ¿qué estás buscando?" type="text">
+
+        <div class="logo"
+            style="color: black; text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;">
+            El mejor lugar pa' tus compras</div>
+    </header>
+
+    <div class="slide">
+        <div class="slide-inner">
+            <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden=""
+                checked="checked">
+            <div class="slide-item">
+                <img src="img/articulos/slide1.webp">
+            </div>
+            <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="img/articulos/slide2.webp">
+            </div>
+            <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="img/articulos/slide3.webp">
+            </div>
+            <label for="slide-3" class="slide-control prev control-1">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-1" class="slide-control next control-3">›</label>
+            <ol class="slide-indicador">
+                <li>
+                    <label for="slide-1" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-2" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-3" class="slide-circulo">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <main>
+        <section>
+            <div>
+                <table id="seccion-icons">
+                    <tr>
+                        <th class="th1"><a href="https://catalogos.plazavea.com.pe/"><img src="img/iconos/ICON-CATALOGO.svg" width="70" height="70"></a></th>
+                        <th class="th2"><a href="https://www.plazavea.com.pe/tecnologia"><img src="img/iconos/ICON-SOLO_TECNOLOGIA.svg" width="70" height="70"></a></th>
+                        <th class="th3"><a href="https://www.plazavea.com.pe/muebles"><img src="img/iconos/ICON-SOLO_DESPENSA.svg" width="70" height="70"></a></th>
+                        <th class="th4"><a href="https://www.plazavea.com.pe/bebidas"><img src="img/iconos/ICON-SOLO_BEBIDAS.svg" width="70" height="70"></a></th>
+                        <th class="th5"><a href="https://www.plazavea.com.pe/search/?_query=frutas%20y%20verduras"><img src="img/iconos/ICON-SOLO-Y-VERDURAS.svg" width="70" height="70"></a></th>
+                        <th class="th6"><a href="https://www.plazavea.com.pe/lacteos-y-huevos"><img src="img/iconos/ICON-SOLO_LACTEOS-Y-HUEVOS.svg" width="70" height="70"></a></th>
+                        <th class="th7"><a href="https://www.plazavea.com.pe/search/?_query=panaderia"><img src="img/iconos/ICON-SOLO_PANADERIA.svg" width="70" height="70"></a></th>
+                        <th class="th8"><a href="https://www.plazavea.com.pe/search/?_query=carne"><img src="img/iconos/ICON-SOLO_CARNES-Y-CHORIZOS.svg" width="70" height="70"></a></th>
+                        <th class="th9"><a href="https://www.plazavea.com.pe/search/?_query=congelado"><img src="img/iconos/ICON-SOLO_CONGELADOS.svg" width="70" height="70"></a></th>
+                        <th class="th10"><a href="https://www.plazavea.com.pe/limpieza"><img src="img/iconos/ICON-SOLO_CUIDADO-DEL-HOGAR.svg" width="70" height="70"></a></th>
+                    </tr>
+                    <tr>
+                        <td><span>Catalogo</span></td>
+                        <td><span>Tecnología</span></td>
+                        <td><span>Despensa</span></td>
+                        <td><span>Bebidas</span></td>
+                        <td><span>Frutas y Verduras</span></td>
+                        <td><span>Lacteos y Huevos</span></td>
+                        <td><span>Panaderia</span></td>
+                        <td><span>Carnes y Chorizos</span></td>
+                        <td><span>Congelados</span></td>
+                        <td><span>Cuidado del Hogar</span></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <div id="reloj">
+            <div id="reloj_texto">
+                <h1>Solo por hoy</h1>
+            </div>
+            <div id="reloj_tiempo">
+                <span id="hours">03</span>
+                <span>:</span>
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+            </div>
+            <script>
+                let hours = 5;
+                let minutes = 0;
+                let seconds = 1;
+    
+                function updateCounter() {
+                    seconds--;
+                    if (seconds < 0) {
+                        seconds = 59;
+                        minutes--;
+                        if (minutes < 0) {
+                            minutes = 59;
+                            hours--;
+                        }
+                    }
+    
+                    document.getElementById("hours").innerText = String(hours).padStart(2, "0");
+                    document.getElementById("minutes").innerText = String(minutes).padStart(2, "0");
+                    document.getElementById("seconds").innerText = String(seconds).padStart(2, "0");
+    
+                    if (hours > 0 || minutes > 0 || seconds > 0) {
+                        setTimeout(updateCounter, 1000);
+                    } else {
+                        alert("Tiempo agotado!");
+                    }
+                }
+    
+                updateCounter();
+            </script>
+        </div>
+        
+
+        <section id="seccion-grid">
+            <div class="grid-container">
+                <div class="grid-item"><img src="img/articulos/verMas-televisores.png"><span class="sp0"><span class="sp1">Ver Todo</span><br><span class="sp2">Televisores</span></span></div>
+                <div class="grid-item"><img src="img/articulos/verMas-laptops.png"><span class="sp0"><span class="sp1">Ver Todo</span><br><span class="sp2">Laptops</span></span></div>
+                <div class="grid-item"><img src="img/articulos/verMas-telefonia.png"><span class="sp0"><span class="sp1">Ver Todo</span><br><span class="sp2">Telefonia</span></span></div>  
+                <div class="grid-item"><img src="img/articulos/verMas-videojuegos.png"><span class="sp0"><span class="sp1">Ver Todo</span><br><span class="sp2">Videojuegos</span></span></div>  
+                <div class="grid-item"><img src="img/articulos/verMas-audio.png"><span class="sp0"><span class="sp1">Ver Todo</span><br><span class="sp2">Audio</span></span></div>
+                <div class="grid-item"><img src="img/articulos/verMas-fotografia.png"><span class="sp0"><span class="sp1">Ver Todo</span><br><span class="sp2">Fotografia</span></span></div>  
+                <div class="grid-item"><img src="img/articulos/verMas-memorias.png" width="193" height="116"><span class="sp0"><span class="sp1">Ver Todo</span><br><span class="sp2">Memorias</span></span></div>
+                <div class="grid-item"><img src="img/articulos/verMas-componentes.png" height="116"><span class="sp0"><span class="sp1">Ver Todo</span><br><span class="sp2">Componentes</span></span></div>
+                <div class="grid-item"><img src="img/articulos/verMas-hogar.png" height="116"><span class="sp0"><span class="sp1">Ver Todo</span><br><span class="sp2">Hogar</span></span></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <span>&#x1F6D2; COMPRAS 100% SEGURAS</span>
+            <span>Esta tienda usa Niubiz para realizar transacciones electrónicas.</span>
+            <span>2023 Metro, Lima Perú</span>
+        </div>
+    </footer>
+    <script src="slider-anuncio.js"></script>
+</body>
+</html>
